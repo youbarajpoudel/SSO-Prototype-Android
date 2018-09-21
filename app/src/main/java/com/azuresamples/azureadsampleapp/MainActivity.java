@@ -52,11 +52,11 @@ public class MainActivity extends AppCompatActivity {
     /* Authority is in the form of https://login.microsoftonline.com/yourtenant.onmicrosoft.com */
     private static final String AUTHORITY = "https://login.microsoftonline.com/common";
     /* The clientID of your application is a unique identifier which can be obtained from the app registration portal */
-    private static final String CLIENT_ID = "<ENTER YOUR CLIENT ID HERE>";
+    private static final String CLIENT_ID = "7d2715df-5f90-4f5b-a37d-e916b3460d2c";
     /* Resource URI of the endpoint which will be accessed */
     private static final String RESOURCE_ID = "https://graph.microsoft.com/";
     /* The Redirect URI of the application (Optional) */
-    private static final String REDIRECT_URI = "<ENTER YOUR REDIRECT URI HERE>";
+    private static final String REDIRECT_URI = "http://localhost";
 
     /* Microsoft Graph Constants */
     private final static String MSGRAPH_URL = "https://graph.microsoft.com/v1.0/me";
